@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Random quote generator</title>
+			<script src="javascript.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<!--
+		<script type="text/javascript" src="javascript.js"></script>
+		-->
+</head>
+
+<body>
+			<p id="placeholder">Click below for an inspiering quote</p>
+	<div class="quote">
+		<div id="quote-box">
+			<!--quote dislayed here-->	
+		</div>
+		<div id="author-box">
+			<!--quote author here-->
+		</div>
+	</div>
+		<div class="buttons">
+		<button id="button1" onclick="randomize(),newQuote(),quoteAuthor()">Quote me!</button>
+		<button onclick="tweetOut()" id="button2">
+			<img id="twitter-image" src="images/twitter.png" alt="twitter.png">
+			<p id="twitter-button-text">Tweet it!</p>
+		</button>
+		</div>
+</body>
+</html>

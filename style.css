@@ -1,0 +1,84 @@
+@font-face {
+	font-family: cursive;
+	src : url("MonsieurLaDoulaise-Regular.ttf");
+}
+
+html {
+	background-image:url("images/brown-wood.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100%;
+}
+
+body {
+	overflow:hidden;
+	font-family:Helvetica, Arial, Monospace;
+}
+
+/*quote*/
+.quote {
+	position:absolute;
+	padding-top:20%;
+	left:30%;
+	right:30%;
+	color:white;
+}
+
+#quote-box {	
+	text-align:left;
+	font-family:cursive;
+	font-size:40px;
+}
+
+#author-box {	
+	text-align:right;
+	font-size:20px;
+}
+
+/*placeholder*/
+#placeholder {
+	position:absolute;
+	top:40%;
+	color:white;
+	text-align:center;
+	width:100%;
+	font-size:30px;
+}
+
+/*Buttons*/
+
+.buttons {
+	position:absolute;
+	bottom:100px;
+	width:100%;
+	text-align:center;
+}
+
+button {
+	padding:20px 0;
+	margin:0 40px;
+	font-size:25px;
+	width:300px;
+	background-color:black;
+	color:white;
+	border:none;
+	border-radius:5%;
+}
+
+button:hover {
+	background-color:white;
+	color:black;
+}
+
+button:active {
+	color:green;
+}
+#button2 p {
+	margin:0;
+}
+
+#twitter-image {
+	position:absolute;
+	margin-left:-90px;
+	width: 30px;
+}
