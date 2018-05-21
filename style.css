@@ -79,3 +79,17 @@ button:hover {
 	margin-left:-90px;
 	width: 30px;
 }
+
+footer {
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:0;
+	font-size:18px;
+	color:white;
+}
+
+footer a {
+	color:lightblue;
+	text-decoration:underline;
+}
